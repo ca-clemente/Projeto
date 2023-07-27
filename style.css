@@ -40,8 +40,9 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
   /* height: 712px; não adicone altura nas caixas, pois o ideal é que elas se adequem ao tamanho dos elementos dentro dela, dificilmente usar altura fixa*/
+  max-width: 588px;
 
   margin: auto;
   /* margem automática nas laterais, não se aplica ao topo. Não se aplica também a elemento inline, somente block*/
